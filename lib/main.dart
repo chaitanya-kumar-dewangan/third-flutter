@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:third/GridViewExample.dart';
 import 'package:third/list_view_example.dart';
 
 void main() {
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ListViewExample(),
+      home: GridViewExample(),
     );
   }
 }
